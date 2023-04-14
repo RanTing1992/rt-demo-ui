@@ -45,17 +45,17 @@ importers:
 
   packages/b:
     specifiers:
-      '@rt-demo-ui/a': workspace:^1.0.0
+      '@rt-ui/a': workspace:^1.0.0
     dependencies:
-      '@rt-demo-ui/a': link:../a
+      '@rt-ui/a': link:../a
 
   playground:
     specifiers:
-      '@rt-demo-ui/components': workspace:^1.0.0
+      '@rt-ui/components': workspace:^1.0.0
       '@vitejs/plugin-vue': ^4.1.0
       vite: ^4.2.1
     dependencies:
-      '@rt-demo-ui/components': link:../packages/components
+      '@rt-ui/components': link:../packages/components
     devDependencies:
       '@vitejs/plugin-vue': 4.1.0_vite@4.2.1
       vite: 4.2.1
