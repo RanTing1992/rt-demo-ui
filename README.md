@@ -15,9 +15,10 @@
 5、unplugin-vue-define-options, vite.config.ts引入的时候会报红(components/vite.config.ts。paly/vite.config.ts 都有这个问题)，使用// @ts-ignore。然后在tsconfig.json里要配置
 "types": ["unplugin-vue-define-options/macros-global" /* ... */]。不然使用不起！！！！版本不对？文档也看不到，element-plus上没看到安装这个插件
 下来需要详细了解一下这个插件
+ 6、为了按需引入。（默认的vite打包是将所有css打包成一个文件的，看看vite可以配置成按需不，不然不科学），所以打包使用的是gulp
 
 
 TODO : 1. withInstall方法提取出来
   2、 less换成scss
-  3、 把onMounted conputed等方法全局导入
-  4、写一个脚本 ，使用命令行生成组件 + paly + 导出等等
+  3、 把onMounted conputed等方法全局导入---不得行，暂时放弃
+  4、写一个脚本 ，使用命令行生成组件 + paly + 导出等等---是否可以使用gulp

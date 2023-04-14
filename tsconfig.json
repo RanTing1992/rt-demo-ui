@@ -10,5 +10,12 @@
     "moduleResolution": "Node",
     "lib": ["esnext", "dom"],
     "types": ["unplugin-vue-define-options/macros-global" /* ... */]
+  },
+  "vueCompilerOptions": {
+    "target": 3, // or 2.7 for Vue 2
+    "plugins": [
+      "@vue-macros/volar/define-options"
+      // ...more feature
+    ]
   }
 }
