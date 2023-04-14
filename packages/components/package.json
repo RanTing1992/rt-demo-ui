@@ -1,17 +1,17 @@
 {
   "name": "@rt-ui/components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
-  "main": "lib/index.js",
-  "module":"es/index.js",
-  "typings": "lib/index.d.ts",
+  "main": "rtui/lib/index.js",
+  "module":"rtui/es/index.js",
+  "typings": "rtui/lib/index.d.ts",
   "scripts": {
     "build": "vite build"
   },
   "keywords": [ "rt-ui","vue3组件库"],
   "files": [
-    "es",
-    "lib"
+    "rtui/es",
+    "rtui/lib"
   ],
   "publishConfig": {
     "access": "public"
