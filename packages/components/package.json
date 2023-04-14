@@ -2,11 +2,20 @@
   "name": "@rt-demo-ui/components",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "module":"es/index.js",
+  "typings": "lib/index.d.ts",
   "scripts": {
     "build": "vite build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [ "rt-ui","vue3组件库"],
+  "files": [
+    "es",
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "rt",
+  "license": "MIT"
 }
